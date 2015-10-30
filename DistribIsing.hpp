@@ -24,7 +24,7 @@ class DistribIsing: public Ising{
   DistribGraph *_distribGraph;
   int _mpi_rank;
   int _mpi_size;
-  bool _mpi_ok;
+    //bool _mpi_ok;
   std::string _directory;
 
   std::vector<int> _sendDataInVertex;

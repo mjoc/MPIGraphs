@@ -215,7 +215,7 @@ int GraphPartitioning::countEigVals(const std::vector<double> &diag, const std::
       break;
     }
     sign = sgn(sturms[i]);
-    if(fabs(sign) < EPSILON) sign = -1*oldSign;
+    if(fabs((float)sign) < EPSILON) sign = -1*oldSign;
     if( sign*oldSign < 0) count++;
     oldSign = sign;
   }
