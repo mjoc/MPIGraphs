@@ -1,0 +1,4 @@
+/home/users/mschpc/2013/oconnm28/Courses/GraphPartitioning/Code/Graphs/
+/home/users/mschpc/2013/oconnm28/Courses/GraphPartitioning/Code/PartOutput/
+torusMesh50 0
+4

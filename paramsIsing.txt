@@ -1,0 +1,5 @@
+/home/users/mschpc/2013/oconnm28/Courses/GraphPartitioning/Code/Graphs/
+/home/users/mschpc/2013/oconnm28/Courses/GraphPartitioning/Code/IsingOutput/Rand/
+bivariateV2032E13131G16 0
+random
+0.44 5000 1000 500
