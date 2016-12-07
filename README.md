@@ -1,4 +1,4 @@
-# Graph Partitioning for Computing on a (multi-core) Distributed Graph using MPI
+# Graph Partitioning for Computing on a Distributed Graph using MPI
 
 Some code I wrote to do Spectral Partitioning of Simple Graphs, and then, with the computed partition, perform distributed algorithms (currently an Ising Model) on the graph to test the timings.
 
@@ -15,7 +15,7 @@ This computation is a complicated route as it is intended for very large matrice
 
 ### Distributed Computing
 
-Basically a Distributed Class which is a type of Class Sparse-Adjacency-Matrix-Graph, which is the baby of a Class Graph and Class Sparse-Binary-Matrix (Graph is a virtual class which needs a storage Class to become concrete). I built it all from scratch, even Sparse Matrix Type, for the exercise as it was for class.  
+Basically a Distributed Class which is a type of Class Sparse-Adjacency-Matrix-Graph, which is the baby of a Class Graph and Class Sparse-Binary-Matrix (Graph is a virtual class which needs a storage Class to become concrete). I built it all from scratch, even Sparse Matrix Type, for fun.  
 
 The algorithm I used to test the Distributed Graph was a Class Distributed-Ising,  which inherited from Class Ising, trying to keep a straightforward relationship between the serial and parallel versions of the code. The algorithm uses Red-Green updating, so the graph needs to be a bipartite, very important restriction!  The Ising Model is calculated by MCMC/Gibbs sampling.
 
