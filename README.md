@@ -13,7 +13,7 @@ Spectral analysis of a graph involves finding the Second (Fiedler) Eigenvector o
 So I used the Lanczos Algorithm to transform the Langrange Matrix into a tridiagonal matrix, used Gerschgorin’s Theorem to find global bounds of Eigenvectors, a Sturm Sequence to find bounds on 2nd Eigenvector, then the Bisection Method to search the Characteristic Equation, the Inverse Power Method using LU decomposition to find the 2nd Eigenvector, and finally using the previously computed Lanczos Algorithms Transformation matrix Q, get the 2nd Eigenvector of the original matrix.
 This computation is a complicated route as it is intended for very large matrices, and targeting one Eigenvector using a Krylov Subspace method is the most practical than a global method.
 
-### Distributed Computing
+### Distributed Classes (distributed on a cluster or distributed system)
 
 Basically a Distributed Class which is a type of Class Sparse-Adjacency-Matrix-Graph, which is the baby of a Class Graph and Class Sparse-Binary-Matrix (Graph is a virtual class which needs a storage Class to become concrete). I built it all from scratch, even Sparse Matrix Type, for fun.  
 
