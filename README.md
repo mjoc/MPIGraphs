@@ -1,12 +1,12 @@
 # Graph Partitioning for Computing on a Distributed Graph using MPI
 
-Some code I wrote to do Spectral Partitioning of Simple Graphs, and then, with the computed partition, perform distributed algorithms (currently an Ising Model) on the graph to test the timings.
+Some code I wrote to do Spectral Partitioning of Large Network Graphs, and then, with the computed partition, perform distributed algorithms (currently an Ising Model) on the graph to test the timings.
 
 Coded in C++ and MPI. The Graph parts are each stored locally on their respective nodes in a 'Distributed Graph' Class which handles the communication across the Graph during computation.
 
 ###  Graph Partitioning
 
-In this case done using Spectral Analysis (not the best, but very elegant theory).
+In this case done using Spectral Analysis (not the best of breed algorithm for this type of thing, but very elegant theory).
 
 Spectral analysis of a graph involves finding the Second (Fiedler) Eigenvector of the Lagrangian Matrix of the Graph.   
 
